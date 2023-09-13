@@ -1,0 +1,103 @@
+/*pseudo classes*/
+
+a:link{
+    color: rgb(248, 5, 5);
+}
+
+a:hover{
+    font-size: 1.1rem;
+    color: rgb(43, 226, 52);
+}
+
+a:active{
+    color: #e5ff00;
+    font-size: 1.1rem;
+}
+
+a:visited{
+    color:rgb(101, 100, 102)
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: #e5ff00;
+}
+
+/*to select emoji of anything windows icon+ ; */
+/* #apple::after{
+    content = "😊"; 
+} 
+
+#fruit li::before{
+    content = "✅";
+    padding: 400px 10px;
+} */
+
+
+/*Dropdown Menu*/
+
+.dropdown button{
+background-color: rgb(122, 124, 124);
+padding: 10px 15px;
+color: white;
+border: none;
+font-weight: 600;
+cursor: pointer;
+
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgba(150, 148, 146, 0.733);
+    box-shadow: 3px 2px 3px #1b1b1b;
+    min-width: 100px;
+
+}
+
+.dropdown a{
+display: block;
+text-decoration: none;
+padding: 10px 15px;
+}
+
+.dropdown:hover .content{
+display: block;
+}
+
+
+
+.content a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.box{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    padding: 15px;
+    
+}
+
+.box test_border{
+    border: 4px;
+    border-color: #e5ff00;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
